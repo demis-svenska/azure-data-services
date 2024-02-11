@@ -1,0 +1,53 @@
+# Ignore local state files
+*.tfstate
+*.tfstate.lock
+*.tfstate.backup
+
+# Ignore local lock files
+terraform.lock
+
+# Ignore local configuration files
+.terraformrc
+terraform.rc
+
+# Ignore temporary files
+.terraform/
+.kitchen/
+build/
+
+# Ignore compiled files
+*.tfplan
+*.tfvars.json
+*.tfvars
+
+# Ignore sensitive files
+# Add files containing passwords, keys, or other sensitive information here
+*.pem
+*.key
+*.jks
+*.crt
+
+# Ignore coverage reports
+coverage/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore generated documentation
+docs/
+
+# Ignore vendor directories
+vendor/
+
+# Ignore test output
+test_output/
+
+# Optional: Ignore remote state lock files
+remote-state.lock
+
+# Optional: Ignore generated plan outputs
+# !tfplan # Unignore for specific cases
+
+# Add other file patterns as needed
+
