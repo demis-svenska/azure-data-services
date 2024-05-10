@@ -4,3 +4,5 @@ table of content
 - azure synapse analytics
 - azure databricks
 - azure streaming service
+
+**discussions...**
